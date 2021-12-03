@@ -8,7 +8,7 @@ def binary_search(list, target):
             return target_position
         elif target > list[target_position]:
             min = target_position
-        elif target < list[target_position]:
+        else:
             max = target_position
         i = i + 1
     return -1
