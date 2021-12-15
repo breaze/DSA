@@ -1,7 +1,6 @@
 def binary_search(list, target):
     max = len(list) - 1
     min = 0
-    # while(min<len(list)-1 and max >0):
     while min <=max:
         target_position = round((max+min)/2)
         if list[target_position] == target:
